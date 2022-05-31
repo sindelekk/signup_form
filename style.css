@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Norse;
+    src: url(./Norse-Bold.otf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+main {
+    display: flex;
+
+    height: 100vh;
+    width: 100vw;
+}
+/* LEFT SIDE */
+
+.logo,
+.content_Left {
+    display: flex;
+}
+
+.content_Left {
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(./pics/photo_Left.jpg);
+    background-size: auto;
+    width: 40vw;
+}
+
+.logo {
+    background-color: rgba(0,0,0,.4);
+    width: 100vw;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.odin_Pic {
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 20%;
+}
+
+.odin_Text {
+    font-family: "Norse";
+    color: white;
+    font-size: 5vw;
+}
+
+/* RIGHT SIDE */
+
+.content_Right {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+    
+}
+
+legend,
+.text_Right {
+    font-size: 25px;
+}
+
+.text_Right {
+    width: 53vw;
+}
+
+.form_flex {
+    width: 40vw;
+}
+
+.text_Right,
+.signup {
+    padding: 4vh 0vh 4vh 4vh;
+}
+
+.sub {
+    padding: 4vh 4vh 4vh 0vh;
+}
+
+.signup {
+    background-color: azure;
+    box-shadow: 4px 4px 4px 4px black;
+}
+
+label {
+    display: block;
+    width: 14vw;
+
+    font-size: 10px;
+}
+
+input {
+    font-size: 1rem;
+    width: 14vw;
+    margin-right: 5rem;
+}
+
+.box {
+    margin-top: 2rem;
+    float: left;
+    width: 50%;
+}
+
+button {
+    background-color: green;
+    color: white;
+
+    padding: 8px 40px 8px;
+    border-radius: 5%;
+    border: none;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.login {
+    padding-top: 4vh;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgreen
+}
+
+#message {
+    font-size: 5px;
+}
